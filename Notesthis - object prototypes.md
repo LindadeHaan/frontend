@@ -1,4 +1,7 @@
-# Chapter 1: this Or That?
+
+
+
+# Chapter 1: `this` Or That?
 `this.` It's a special identifier keyword that's automatically defined in the scope of every function, but what exactly it refers to bedevils even seasoned JavaScript developers.  
 
 ## Why this?
