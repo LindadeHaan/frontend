@@ -1,3 +1,27 @@
+# Aantekeningen Les 5
+
+Closure: bewaard data uit de outer functie, zodat je die weer kan gebruiken.  
+Hoisting: Je roept alles bovenaan het bestand aan.  
+
+```js
+var clowns = [] //array literal
+var clown = {
+	name: 'Pipo',
+	shoeSize: 88,
+	laugh: function (){
+		console.log('Ik heet ' + clown.name + ' whoehahahahaha')
+		console.log('Ik heet ' + this.name + ' whoehahahahaha') -> is hetzelfde maar dan met this
+	}
+} //object literal
+```
+this staat er ipv clown, this verwijst naar het object waar je op dat moment in zit.
+
+Een object kan 2 dingen hebben: properties of methods.  
+Properties zijn dingen als naam en schoenmaat. __Properties__ hebben __key/values pairs__
+Methods een actie die uitgevoerd kan worden.  
+
+__Prototype__:
+Elk object erft properties van het moeder object.  
 
 
 
