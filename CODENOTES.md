@@ -74,3 +74,8 @@ this verwijst naar het object waar je in bezig bent.
 
 __*Transpiling = bijvoorbeeld de nieuwste versie van JavaScript omzetten naar een versie die jij wil.*__
 
+Wat is een constructor function?
+begint met new en een hoofdletter.
+
+`var myBeautifulGallery = new Gallery`
+`var myBeautifulGallery` is een object
