@@ -46,3 +46,31 @@ one scope (floor) at a time, looking for the identifier, until they get to the g
 
 Unfulfilled RHS references result in ReferenceErrors being thrown. Unfulfilled LHS references result in an automatic, implicitly-created global of that name (if not in "Strict Mode" 
 [^note-strictmode]), or a ReferenceError (if in "Strict Mode" [^note-strictmode]).
+
+
+
+## Les 7
+var = functie scope
+
+let/const = block scope
+
+block = for loop, {} als je alleen accolades gebruikt maakt je een block aan, `if (true) {}` = ook een block
+
+let/const = functie
+const staat in de programmeer taal dat iets niet te veranderen is. const kan niet veranderen van type, maar wel een andere waarde krijgen. 
+
+```js
+var body = document.body
+
+body.addEventListener('click', function(){
+console.log('the body was clicked')
+}
+```
+###### syntactic sugar (andere manier van noteren)
+arrow function () => {}
+arrow function verandert de waarde van `this` niet
+
+this verwijst naar het object waar je in bezig bent.
+
+__*Transpiling = bijvoorbeeld de nieuwste versie van JavaScript omzetten naar een versie die jij wil.*__
+
